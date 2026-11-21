@@ -2,9 +2,10 @@
 
 This repository publishes the release archives of **TitheKit**, proprietary software for macOS by RenaCode, and
 their SHA-256 checksums. It contains no source code. This file is a short copy of the TitheKit security policy; the
-terms below are the same as in the full policy.
+terms it states are the same as in the full policy. Scope, out-of-scope cases and what reporters get from us are
+described only on the website.
 
-The full public policy is **https://tithekit.com/en/security/**. Advisories are published on
+The full public policy is **https://tithekit.com/security/**. Advisories are published on
 **https://tithekit.com/en/advisories/**. If this file and the website ever differ, the website is the current
 version.
 
@@ -53,13 +54,13 @@ We will not take legal action against good-faith research that follows this poli
 you own, or is non-invasive testing of the tithekit.com website and domain (no load or denial of service, no access to
 other people's data, no mass automated scanning and no social engineering); it does not read or change other people's
 data, does not degrade services for others, and you report promptly. The scope of the policy is described in full at
-https://tithekit.com/en/security/.
+https://tithekit.com/security/.
 
 ## Supported versions
 
 Only the **latest release** receives security fixes. All earlier releases in this repository are **unsupported**
-and may contain unpatched vulnerabilities; they are kept only as a historical archive. Do not install them for
-regular use.
+and may contain unpatched vulnerabilities; they are kept only as a historical archive and you use them at your
+own risk.
 
 Before reporting, please check that the vulnerability still occurs in the latest release: update with
 `brew upgrade tithekit` (Homebrew) or download the latest release from this repository. Check every archive against
