@@ -13,8 +13,8 @@ version.
 
 The only channel for security reports is e-mail to **contact@renacode.com**, subject "TitheKit security".
 E-mail is not encrypted. Please do not open a public issue, pull request or discussion in this repository, and keep
-the details private until a fixed release is published or for 90 days from the acknowledgement, whichever comes
-first, as described under "Coordinated disclosure" below.
+the details private until a fixed release is published, until the vulnerability is fixed on the tithekit.com website,
+or for 90 days from the acknowledgement, whichever comes first, as described under "Coordinated disclosure" below.
 
 Please include:
 
@@ -40,13 +40,16 @@ mitigations they can apply.
 
 ## Coordinated disclosure
 
-- Please keep the details private until a fixed release is published or for 90 days from the acknowledgement,
-  whichever comes first. If a fix needs longer, we explain why and may ask for a short extension, never for an
+- Please keep the details private until a fixed release is published, until the vulnerability is fixed on the
+  tithekit.com website, or for 90 days from the acknowledgement, whichever comes first. If we do not acknowledge your
+  report within 3 working days, the 90 days count from the day we received it, not from the acknowledgement. If a fix
+  needs longer, we explain why and may ask for a short extension, never for an
   open-ended delay.
 - Once a fixed release is published, you may publish your findings. We publish an advisory at the same time or
   earlier.
-- There is no bug bounty programme: we do not pay for reports. Public credit is given in the advisory and the release
-  notes, unless you ask not to be named.
+- There is no bug bounty programme: we do not pay for reports. Public credit in the advisory and the release notes
+  only with your consent, in the wording agreed with you (your first name, full name or a nickname); without your
+  consent we do not name you.
 
 ## Safe harbour
 
